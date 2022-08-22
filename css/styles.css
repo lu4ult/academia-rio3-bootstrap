@@ -49,6 +49,23 @@ h1 {
     aspect-ratio: 1;
 }
 
+.btn {
+    background: var(--4);
+    color: var(--1);
+}
+
+.bgc-as {
+    color: var(--4);
+}
+
+.bgc-bl {
+    color: var(--1);
+}
+footer {
+    background-color: var(--2);
+    color: var(--1);
+}
+
 @media only screen and (max-width: 600px) {
     .whatsapp {
         left: 85%;
