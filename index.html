@@ -20,7 +20,7 @@
             <div class="navbar-nav m">
               <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               <a class="nav-link" href="#">Cómo llegar</a>
-              <a class="nav-link" href="./pages/galeria.html">Galería</a>
+              <a class="nav-link" href="#">Galería</a>
               <a class="nav-link" href="#">Contacto</a>
             </div>
           </div>
@@ -29,10 +29,10 @@
     </header>
 
 
-    <main class="container-fluid">
+    <main class="container">
       <h1 class="text-center text-bg-primary">Academia de Fútbol Rio III</h1>
-      <div class="container-fluid d-flex justify-content-center m-5">
-        <div id="carouselExampleInterval" class="carousel slide w-80" data-bs-ride="carousel">
+      <!-- <div class="container-fluid d-flex justify-content-center m-5">
+        <div id="carouselExampleInterval" class="carousel slide w-50" data-bs-ride="carousel">
           <div class="carousel-inner ">
             <div class="carousel-item active" data-bs-interval="10000">
               <img src="./images/galeria/1.jpg" class="d-block w-100 rounded-5 img-fluid" alt="...">
@@ -59,8 +59,38 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+      </div> -->
+      <div class="container">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./images/galeria/1.jpg" class="d-block w-100 rounded-5" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./images/galeria/2.jpg" class="d-block w-100 rounded-5" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/galeria/3.jpg" class="d-block w-100 rounded-5" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/galeria/4.jpg" class="d-block w-100 rounded-5" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/galeria/5.jpg" class="d-block w-100 rounded-5" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
 
+      <!-- Tarjeta Misión del club -->
       <div class="container-fluid d-flex justify-content-center m-5">
         <div class="card w-50">
           <div class="card-header">
@@ -98,8 +128,6 @@
         </div>
       </div>
 
-      <!--  -->
-
 
       <!-- Tarjetas Profesores -->
       <div class="d-flex justify-content-around">
@@ -111,18 +139,6 @@
         </div>
         <div class="card shadow-lg" style="width: 18rem;">
           <img src="./images/equipo_2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Entrenador de fútbol nivel inicial.<br>Ex jugador de fútbol.<br>DT. de fútbol en ATFA Río IV</p>
-          </div>
-        </div>
-        <div class="card shadow-lg" style="width: 18rem;">
-          <img src="./images/equipo_3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Director del Proyecto.<br>DT Nacional ATFA.<br>Coach Deportivo</p>
-          </div>
-        </div>
-        <div class="card shadow-lg" style="width: 18rem;">
-          <img src="./images/equipo_4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">Entrenador de fútbol nivel inicial.<br>Ex jugador de fútbol.<br>DT. de fútbol en ATFA Río IV</p>
           </div>
@@ -152,7 +168,7 @@
             <!-- <iframe src="https://www.youtube.com/embed/-QO7dPIz9nM" title="Academia Rio III Fútbol Club" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
         </aside>
-       
+
     </main>
     <footer class="text-bg-dark p-3 d-flex justify-content-center mt-5">
         <span class="">Desarrollado por Lautaro Tourn</span>
