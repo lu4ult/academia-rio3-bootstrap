@@ -28,3 +28,23 @@ h1 {
     background: var(--2);
     color: var(--1);
 }
+
+.mision {
+    max-width: 900px;
+    max-height: 400px;
+    overflow: auto;
+
+}
+
+.whatsapp {
+    display: inline-block;
+    position: fixed;
+    bottom: 5%;
+    left: 90%;
+    /* border: 1px solid red; */
+}
+
+.whatsapp img {
+    width: 75px;
+    aspect-ratio: 1;
+}
