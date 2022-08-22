@@ -1,3 +1,13 @@
+:root {
+    --1: #FDFDFE;
+    --2: #05255B;
+    --3: #333233;
+    --4: #1090CF;
+    --5: #B8C2C9;
+    --6: #717782;
+    }
+
+
 * {
     /* margin: 0;   En bootstrap no hace falta
     padding: 0; */
@@ -5,29 +15,16 @@
    /* border: 1px solid red; */
 }
 
-body {
-    /* background: blue; */
+h1 {
+    width: 100%;
+    background: var(--2);
+    color: var(--1);
+    padding: 4px;
+    margin: 0;
+    margin-bottom: 4px;
 }
 
-
-
-/* img {
-    width: 100px;
-    aspect-ratio: 1;
-} */
-
-
-/*
-img {
-    width: 100px;
-    height: 100px;
-}
-
-body {
-    width: 100vw;
-    height: 100vh;
-} */
-
-.galeria img {
-    max-height: 300px;
+.card-header {
+    background: var(--2);
+    color: var(--1);
 }
