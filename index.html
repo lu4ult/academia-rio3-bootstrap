@@ -4,39 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academia RioIII</title>
+    <title>Academia Rio III</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
+      <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <div class="row-fluid">
-                <div class="col-6">
-                    Icono
-                </div>
-                <div class="col-6">
-                    Navegacion
-                </div>
+          <a class="navbar-brand" href="#"><img class="img-thumbnail" src="./images/academia icono.jpg" alt="Academia Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav m">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" href="#">Cómo llegar</a>
+              <a class="nav-link" href="#">Galería</a>
+              <a class="nav-link" href="#">Contacto</a>
             </div>
+          </div>
         </div>
-        <!-- <div>
-            <a href="/"><img src="/images/academia.webp"></a>
-
-        </div>
-        <div>
-            <ul class="list-unstyled">
-                <li><a href="/"></a>Contacto</li>
-                <li><a href="/">Jugadores</a></li>
-                <li><a href="/"></a>Cómo llegar</li>
-                <li><a>Galería</a></li>
-            </ul>
-        </div> -->
+      </nav>
     </header>
 
 
-    <main>
-        <span>MISIÓN. Ser una organización líder en la enseñanza de fútbol integral para niños y jóvenes de</span>
+    <main class="container-fluid">
+      <h1 class="text-center text-bg-primary">Academia de Fútbol Rio III</h1>
+      <div class="container-fluid d-flex justify-content-center m-5">
+        <div id="carouselExampleInterval" class="carousel slide w-80" data-bs-ride="carousel">
+          <div class="carousel-inner ">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./images/galeria/1.jpg" class="d-block w-100 rounded-5 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./images/galeria/2.jpg" class="d-block w-100 rounded-5 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/galeria/3.jpg" class="d-block w-100 rounded-5 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/galeria/4.jpg" class="d-block w-100 rounded-5 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/galeria/5.jpg" class="d-block w-100 rounded-5 img-fluid" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="container-fluid d-flex justify-content-center m-5">
+        <div class="card w-50">
+          <div class="card-header">
+            Misión
+          </div>
+          <div class="card-body d-flex flex-column align-items-center">
+            <blockquote class="blockquote mb-0">
+              <cite title="Source Title">Nuestra misión: Ser una organización líder en la enseñanza de fútbol integral para niños y jóvenes</cite>
+            </blockquote>
+
+            <div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Youtube
+              </button>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Video en Youtube</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                      <iframe src="https://www.youtube.com/embed/-QO7dPIz9nM" title="Academia Rio III Fútbol Club" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Volver</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+
+
+      <!-- Tarjetas Profesores -->
+      <div class="d-flex justify-content-around">
+        <div class="card shadow-lg" style="width: 18rem;">
+          <img src="./images/equipo_1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Director del Proyecto.<br>DT Nacional ATFA.<br>Coach Deportivo</p>
+          </div>
+        </div>
+        <div class="card shadow-lg" style="width: 18rem;">
+          <img src="./images/equipo_2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Entrenador de fútbol nivel inicial.<br>Ex jugador de fútbol.<br>DT. de fútbol en ATFA Río IV</p>
+          </div>
+        </div>
+        <div class="card shadow-lg" style="width: 18rem;">
+          <img src="./images/equipo_3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Director del Proyecto.<br>DT Nacional ATFA.<br>Coach Deportivo</p>
+          </div>
+        </div>
+        <div class="card shadow-lg" style="width: 18rem;">
+          <img src="./images/equipo_4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Entrenador de fútbol nivel inicial.<br>Ex jugador de fútbol.<br>DT. de fútbol en ATFA Río IV</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="container m-5 d-flex justify-content-center w-100">
+      </div> -->
+
+        <!-- <span>MISIÓN. Ser una organización líder en la enseñanza de fútbol integral para niños y jóvenes de</span>
         <a href="https://www.facebook.com/profile.php?id=100042131901024" target="_blank">Facebook</a>
         <a href="https://www.instagram.com/academia.rio3/" target="_blank">Instagram</a>
 
@@ -49,20 +145,22 @@
         <img src="images/galeria/241890747_1002134977294490_9160968831071007180_n.jpg">
         <img src="images/galeria/278937517_1142242389950414_7525281975708388467_n.jpg">
         <img src="images/galeria/279086277_1142241966617123_6511533522911089323_n.jpg">
-        <nav>
+        -->
 
-        </nav>
+
         <aside>
-            <iframe src="https://www.youtube.com/embed/-QO7dPIz9nM" title="Academia Rio III Fútbol Club" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <iframe src="https://www.youtube.com/embed/-QO7dPIz9nM" title="Academia Rio III Fútbol Club" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
         </aside>
-        <article>
-
-        </article>
+       
     </main>
-    <footer>
-
+    <footer class="text-bg-dark p-3 d-flex justify-content-center mt-5">
+        <span class="">Desarrollado por Lautaro Tourn</span>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"
+    ></script>
 </body>
 </html>
