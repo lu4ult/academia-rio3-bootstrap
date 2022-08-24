@@ -7,6 +7,14 @@
     --6: #717782;
     }
 
+::-webkit-scrollbar {
+    background-color: var(--5);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--2);
+    border-radius: 25px;
+}
 
 * {
     /* margin: 0;   En bootstrap no hace falta
@@ -42,6 +50,7 @@ h1 {
     bottom: 5%;
     left: 90%;
     /* border: 1px solid red; */
+    z-index: 100;
 }
 
 .whatsapp img {
